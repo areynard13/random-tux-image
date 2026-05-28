@@ -1,0 +1,30 @@
+name: Update Daily Tux Image
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-tux:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run script to select Tux
+        run: python main.py
+
+      - name: Deploy output to separate branch
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: tux-assets
+          folder: output
+          single-commit: true
