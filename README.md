@@ -22,3 +22,13 @@ If you want to display this daily Tux on your own GitHub profile or repository R
 ```markdown
 ![Daily Tux](https://raw.githubusercontent.com/areynard13/random-tux-image/tux-assets/img.png)
 ```
+
+## Contributing
+
+Do you have a cool Tux image to share? Contributions are welcome! 
+
+1. **Fork** this repository.
+2. Add your image (in `.png` format) to the `images` folder.
+3. Open a **Pull Request**.
+
+Once merged, your Tux will be added to the daily rotation!
