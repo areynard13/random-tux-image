@@ -32,3 +32,10 @@ Do you have a cool Tux image to share? Contributions are welcome!
 3. Open a **Pull Request**.
 
 Once merged, your Tux will be added to the daily rotation!
+
+## Example Of Tux Images
+
+| ![TV](/images/0004_tv.png) | ![Beer](/images/0006_beer.png) | ![Restaurant](/images/0005_restaurant.png) |
+|---|---|---|
+| ![Chef](/images/0009_pizza_chef.png) | ![Painting](/images/0014_painting.png) | ![Ninja](/images/0010_ninja.png) |
+| ![Sled](/images/0008_sled.png) | ![Surf](/images/0001_surf.png) | ![Pyramids](/images/0013_pyramids.png) |
