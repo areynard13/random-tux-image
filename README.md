@@ -1,19 +1,12 @@
 # Random Tux Image
 
-This project automatically changes the Tux image displayed in the README every day.
+A simple GitHub Action that adds a daily-changing Tux image to your README in 1 line.
 
 Highly inspired by @Yougo-rgb and his <a href="https://github.com/Yougo-rgb/random-code-error">random coding error</a>.
 
 ## Image of the Day
 
 ![Daily Tux](https://raw.githubusercontent.com/areynard13/random-tux-image/tux-assets/img.png)
-
-## How It Works
-
-1. A Python script (`select_tux.py`) picks a random image from the `images` folder.
-2. The script copies this image into the `output` folder and renames it to `img.png`.
-3. A GitHub Action runs automatically every day at midnight.
-4. The action isolates the `output` folder and pushes its content to the dedicated `tux-assets` branch.
 
 ## Add this to your README
 
@@ -22,6 +15,13 @@ If you want to display this daily Tux on your own GitHub profile or repository R
 ```markdown
 ![Daily Tux](https://raw.githubusercontent.com/areynard13/random-tux-image/tux-assets/img.png)
 ```
+
+## How It Works
+
+1. A Python script (`select_tux.py`) picks a random image from the `images` folder.
+2. The script copies this image into the `output` folder and renames it to `img.png`.
+3. A GitHub Action runs automatically every day at midnight.
+4. The action isolates the `output` folder and pushes its content to the dedicated `tux-assets` branch.
 
 ## Contributing
 
@@ -39,3 +39,9 @@ Once merged, your Tux will be added to the daily rotation!
 |---|---|---|
 | ![Chef](/images/0009_pizza_chef.png) | ![Painting](/images/0014_painting.png) | ![Ninja](/images/0010_ninja.png) |
 | ![Sled](/images/0008_sled.png) | ![Surf](/images/0001_surf.png) | ![Pyramids](/images/0013_pyramids.png) |
+
+## Support
+
+If you like this project, consider giving it a ⭐ on GitHub.
+
+For questions, issues, or suggestions, feel free to open an issue in this repository.
